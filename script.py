@@ -92,7 +92,7 @@ if "data" in datos:
 
     # Gráfico de barras con los precios de las 10 criptomonedas más valiosas
     fig, ax = plt.subplots(figsize=(12, 6))
-    ax.bar(top_10_cripto["Nombre"], top_10_cripto["Precio (USD)"], color='cyan')
+    ax.bar(top_10_cripto["Nombre"], top_10_cripto["Precio (USD)"], color='skyblue')
     ax.set_xlabel('Criptomoneda')
     ax.set_ylabel('Precio (USD)')
     ax.set_title('Precios de las 10 criptomonedas más valiosas (Sin BTC)')
