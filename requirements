@@ -2,4 +2,4 @@ streamlit
 request
 json
 pandas
-matplotlib.pyplot
+matplotlib
