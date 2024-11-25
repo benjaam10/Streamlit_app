@@ -1,5 +1,5 @@
 streamlit
-request
+requests
 json
 pandas
 matplotlib
