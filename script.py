@@ -147,17 +147,5 @@ if "data" in datos:
     plt.tight_layout()
     st.pyplot(fig)
 
-    # Gráfico de líneas con los precios de las 10 criptomonedas sin usar px
-    fig_linea = plt.figure(figsize=(12, 6))
-    plt.plot(top_10_cripto["Nombre"], top_10_cripto["Precio (USD)"], marker='o', color='b', label="Precio (USD)")
-    plt.xlabel('Criptomoneda')
-    plt.ylabel('Precio (USD)')
-    plt.title('Precios de las 10 criptomonedas más valiosas (Sin BTC)')
-    plt.grid(True)
-    plt.xticks(rotation=45)
-    plt.legend()
-    plt.tight_layout()
-    st.pyplot(fig_linea)
-
 else:
     st.error("No se pudieron obtener los datos de la API.")
